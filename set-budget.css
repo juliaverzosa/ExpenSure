@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --light: #f6f6f9;
+    --primary: #1976D2;
+    --light-primary: #CFE8FF;
+    --grey: #eee;
+    --dark-grey: #AAAAAA;
+    --dark: #363949;
+    --danger: #D32F2F;
+	--light-danger: #FECDD3;
+    --warning: #FBC02D;
+    --light-warning: #FFF2C6;
+    --success: #388E3C;
+    --light-success: #BBF7D0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bx{
+    font-size: 1.7rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+p{
+    color: var(--primary);
+}
+
+html{
+    overflow-x: hidden;
+}
+/* Updated CSS Styles */
+.budget-form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 36px 24px;
+    background: var(--light);
+    border-radius: 24px;
+    
+}
+
+.budget-form .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.budget-form .card-header {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--dark); /* Updated color */
+}
+
+.budget-form input[type="text"] {
+    width: 100%;
+    padding: 20px; /* Increased padding for better input appearance */
+    margin-bottom: 20px;
+    border: 0.5px solid var(--dark-grey); /* Updated border color */
+    border-radius: 15px;
+    outline: none;
+    color: var(--dark); /* Updated text color */
+    font-size: 16px; /* Added font size for consistency */
+}
+
+.budget-form button {
+    display: block;
+    margin: 0 auto;
+    padding: 12px 24px; /* Increased padding for better button appearance */
+    background: var(--primary);
+    color: var(--light);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 36px;
+    width: 50%;
+    
+}
+
+.budget-form button:hover {
+    background: #2380c1;
+}

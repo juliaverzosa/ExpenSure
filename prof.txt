@@ -1,0 +1,106 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f7f6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .profile-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f4f7f6;
+  }
+  
+  .profile-form {
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .card p {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .text-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #333;
+    background: #f9f9f9;
+  }
+  
+  .text-input[readonly] {
+    background: #e9ecef;
+    border-color: #ccc;
+    color: #495057;
+  }
+  
+  .pressbutton {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background: #1976D2;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .pressbutton:hover {
+    background: #155a9c;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .close-btn:hover {
+    color: #1976D2;
+  }
+  
